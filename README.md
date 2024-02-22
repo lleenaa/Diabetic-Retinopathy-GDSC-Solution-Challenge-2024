@@ -16,11 +16,10 @@ We obtained the dataset used in this project from (https://www.kaggle.com/datase
 
 
 ## Running the Code
-
 To run the code, simply open the provided notebook file in Jupyter Notebook or Google Colab. All required libraries are already included in the notebook.
 
-## Preprocessing
 
+## Preprocessing
 We performed preprocessing on the images before feeding them into our model. The preprocessing steps include applying Gaussian filters to enhance image quality and reduce noise, improving the model's ability to extract relevant features from the images.
 
 
@@ -32,8 +31,5 @@ We fine-tuned the DenseNet121 model by adding additional layers on top to adapt 
 This architecture enables our model to effectively learn and extract relevant features from retinal images, allowing it to make accurate predictions for diabetic retinopathy diagnosis.
 
 
-### Gradio Interface
-
+## Gradio Interface
 We created a Gradio interface for our solution, allowing users to interactively upload retinal images and obtain diagnostic predictions in real-time. The Gradio interface provides a user-friendly way to utilize our solution without requiring any programming knowledge.
-
-
